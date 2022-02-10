@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html style="width: 100%;">
+<head>
+</head>
+<body style="width: 100%; height: 100%;">
+    <script src="script.js"></script>
+    
+    <div style="display: flex; justify-content: space-evenly;">
+        <button style="font-size: 3rem;" onclick=test()>TEST</button>
+        <button style="font-size: 3rem;" onclick=esegui()>ESEGUI</button>
+    </div>
+    
+    <div id="next_match" style="height: 100%; font-size: 3rem;">
+        <div id="status"></div>
+
+        <div id='partita' style="margin-top: 1rem;">Partita: </div>
+        <div id='ora' style="margin-top: 1rem;">Orario di inizio: </div>
+        <div id='risultato' style="margin-top: 1rem;">Risultato: </div>
+        <div style="text-align: center; margin-top: 1rem;">PROB</div>
+        <div style="display: flex; justify-content: space-evenly; margin-top: 1rem;">
+            <div id="prob_1">1: </div>
+            <div id="prob_X">X: </div>
+            <div id="prob_2">2: </div>
+        </div>
+    </div>
+
+    <div id="best_match" style="height: 100%; font-size: 3rem; margin-top: 7rem;">
+        <div style="margin-top: 1rem;">Migliori partite da giocare:</div>
+    </div>
+
+</body>
+</html>
